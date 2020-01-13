@@ -1,0 +1,23 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        Adhisha graphs
+        <!-- <canvas id="myCanvas" width="500" height="500" style="border:1px solid #000000;"> -->
+            <svg width="500" height="500" style="border:1px solid #000000;">
+                <path fill="none" stroke="red" stroke-width="1" d="M20 50 C40 20, 60 50, 80 10" />
+            </svg>
+        <!-- </canvas> -->
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+
+            ctx.moveTo(0,0);
+            ctx.lineTo(200,100);
+            ctx.stroke();
+            ctx.fillText("Hello World",200,100);
+        </script>
+
+    </body>
+</html>
